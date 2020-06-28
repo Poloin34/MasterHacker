@@ -70,7 +70,7 @@ gov () {
         sleep 15
         printf "\n"
         echo "${red}We have some trouble getting in.. check internet connection and cpu usage..${reset}"
-        xdg-open https://github.com/Poloin34/MasterHacker/victims/
+        xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
         exit
     }
     govfamous () {
@@ -131,7 +131,7 @@ gov () {
         sleep 15
         printf "\n"
         echo "${red}We have some trouble getting in.. check internet connection and cpu usage..${reset}"
-        xdg-open https://github.com/Poloin34/MasterHacker/victims/
+        xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
         exit
 
     }
@@ -190,7 +190,7 @@ gov () {
         sleep 15
         printf "\n"
         echo "${red}We have some trouble getting in.. check internet connection and cpu usage..${reset}"
-        xdg-open https://github.com/Poloin34/MasterHacker/victims/
+        xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
         exit
     }
 
