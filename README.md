@@ -5,7 +5,7 @@
 If you want to hack with only one tool, this is made for you !   
   
 
-**How to install :**
+__**How to install :**__
 
 Install git  
 `sudo apt install git`
@@ -21,7 +21,7 @@ Launch app !
 
 Enjoy !
 
-**Coded by @Poloin34**  
+__**Coded by @Poloin34**__  
 
 **Don't be noob, give me the credits if you copy ANY part of this code !**  
 
