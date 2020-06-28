@@ -21,6 +21,7 @@ Launch app !
 Enjoy !
 
 **Coded by @Poloin34**
+\n
 **Don't be noob, give me the credits if you copy ANY part of this code !**
 
 
