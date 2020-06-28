@@ -70,7 +70,7 @@ gov () {
         sleep 15
         printf "\n"
         echo "${red}We have some trouble getting in.. check internet connection and cpu usage..${reset}"
-        xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
+        #xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
         exit
     }
     govfamous () {
@@ -113,7 +113,7 @@ gov () {
         while read line
         do
             echo -e "$line "
-            sleep .05
+            sleep .02
         done < victims.txt
 
         echo "${reset}Finished to breach into $people ! "
@@ -131,7 +131,7 @@ gov () {
         sleep 15
         printf "\n"
         echo "${red}We have some trouble getting in.. check internet connection and cpu usage..${reset}"
-        xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
+        #xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
         exit
 
     }
@@ -190,7 +190,7 @@ gov () {
         sleep 15
         printf "\n"
         echo "${red}We have some trouble getting in.. check internet connection and cpu usage..${reset}"
-        xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
+        #xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
         exit
     }
 
@@ -217,11 +217,196 @@ gov () {
     fi
 }
 
+social () {
+    insta () {
+        banner
+        printf "Here all the Instagram's hacking tools :"
+        printf "\n\n"
+        printf " 1) Hack an account"
+        printf "\n"
+        printf  "2) Get certified"
+        printf "\n"
+        printf " 3) Make someone loose him certified badge"
+        printf "\n"
+        printf " 4) Get shopping certified"
+        printf "\n"
+        printf " 5) Get a coupon for a free ad-post"
+        printf "\n"
+        printf " 6) Get +500 followers"
+        printf "\n"
+        printf " 7) Get +100 likes on your publication"
+        printf "\n\n"
 
+        read -p "What do you want to do ? " socialinstachoice
+
+        if [ $socialinstachoice == 1 ]
+        then
+            banner
+            printf "Let's hack an account !"
+            printf "\n"
+            read -p "First, write the account you want to hack : " instahack
+
+            sleep 1
+            reset
+            banner
+            printf "We are going to hack the accont '$instahack'"
+            printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
+            sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
+            sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
+            sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
+            sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
+            sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
+            sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
+            sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."            
+            printf "\n\n\n"
+            printf "${green}Succesfully hacked '$instahack' !${reset}"
+            printf "\n"
+            printf "Password is coming.."
+            printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
+            sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
+
+            printf "${red}Something bad happened.. check internet and cpu usage please....${reset}"
+            sleep 1
+            printf "Retrying.."
+            sleep 15
+            "Doesn't worked... Retry with better internet !"
+            #xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
+            exit
+
+        elif [ $socialinstachoice == 2 ]
+        then
+            banner
+        elif [ $socialinstachoice == 3 ]
+        then
+            banner
+        elif [ $socialinstachoice == 4 ]
+        then
+            banner
+        elif [ $socialinstachoice == 5 ]
+        then
+            banner
+        elif [ $socialinstachoice == 6 ]
+        then
+            banner
+        elif [ $socialinstachoice == 7 ]
+        then
+            banner
+        elif [ $socialinstachoice == 8 ]
+        then
+            banner
+        fi
+
+    }
+    facebook () {
+        banner
+        
+    }
+    snapchat () {
+        banner
+        
+    }
+    tinder () {
+        banner
+        
+    }
+    reddit () {
+        banner
+        
+    }
+    outlook () {
+        banner
+        
+    }
+    gmail () {
+        banner
+        
+    }
+    youtube () {
+        banner
+        
+    }
+    twitch () {
+        banner
+        
+    }
+    twitter () {
+        banner
+
+    }
+    minecraft () {
+        banner
+
+    }
+    fortnite () {
+        banner
+
+    }
+
+    banner
+    printf "Here all the Socials Medias hacking possibilities :"
+    printf "\n\n"
+    printf " 1) Instagram\t2) Facebook"
+    printf "\n"
+    printf " 3) Twitter\t4) Snapchat"
+    printf "\n"
+    printf " 5) Reddit\t6) Tinder"
+    printf "\n"
+    printf " 7) Gmail\t8) Outlook"
+    printf "\n"
+    printf " 9) Youtube\t10) Twitch"
+    printf "\n"
+    printf " 11) Minecraft\t12) Fortnite"
+    printf "\n\n"
+
+    read -p "Which one do you want to check ? " socialchoice
+
+    if [ $socialchoice == 1 ]
+    then
+        insta
+    elif [ $socialchoice == 2 ]
+    then
+        facebook
+    elif [ $socialchoice == 3 ]
+    then
+        twitter
+    elif [ $socialchoice == 4 ]
+    then
+        snapchat
+    elif [ $socialchoice == 5 ]
+    then
+        reddit
+    elif [ $socialchoice == 6 ]
+    then
+        tinder
+    elif [ $socialchoice == 7 ]
+    then
+        gmail
+    elif [ $socialchoice == 8 ]
+    then
+        outlook
+    elif [ $socialchoice == 9 ]
+    then
+        youtube
+    elif [ $socialchoice == 10 ]
+    then
+        twitch
+    elif [ $socialchoice == 11 ]
+    then
+        minecraft
+    elif [ $socialchoice == 12 ]
+    then
+        fortnite
+    fi
+
+
+
+
+}
 
 home () {
     banner
     printf "Welcome in this tool ! You want to hack your governements or just the Instagram of your ex ? This tool is for you !!"
+    printf "\tGET FREE NETFLIX FOR A LIMITED TIME ! SELECT 1, THEN 3 AND THEN 5 !!"
     printf "\n\nHere all of the available options :"
     printf "\n\n"
     printf "\t1) Governement hacking tools"
