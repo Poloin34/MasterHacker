@@ -247,7 +247,6 @@ social () {
             read -p "First, write the account you want to hack : " instahack
 
             sleep 1
-            reset
             banner
             printf "We are going to hack the accont '$instahack'"
             printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
@@ -264,18 +263,44 @@ social () {
             printf "Password is coming.."
             printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
             sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
-
+            printf "\n\n"
             printf "${red}Something bad happened.. check internet and cpu usage please....${reset}"
             sleep 1
+            printf "\n"
             printf "Retrying.."
             sleep 15
-            "Doesn't worked... Retry with better internet !"
+            "${red}Doesn't worked... Retry with better internet !${reset}"
             #xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
             exit
 
         elif [ $socialinstachoice == 2 ]
         then
             banner
+            printf "Let's make your account certified !"
+            printf "\n"
+            read -p "First, tell me the account you want to be certified : " instacertif
+
+            sleep 1
+            banner
+            printf "Starting to apply the certification on $instacertif Instagram account."; sleep 0.2; printf "."
+            printf "\n"
+            printf "Connecting to instagram.com"; sleep 0.2; printf "."; sleep 0.2; printf "."; printf "${green}Connected !${reset}"
+            printf "\n"
+            printf "Getting access to the certification program."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "${green}Achieved !${reset}"
+            printf "\n"
+            printf "Sending username to certification list."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "${green}Account username send !${reset}"
+            printf "\n\n\n"
+            printf "Start using your internet connection and cpu to achieve task."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."
+            sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."
+            printf "\n"
+            printf "${red}ERROR ! Your internet connection or CPU power is not enough !${reset}"
+            printf "\n"
+            printf "Retrying."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf ".";
+            sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."
+            printf "${red}Error.... we can't send the proper way..${reset}"
+            #xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
+            exit
+        
         elif [ $socialinstachoice == 3 ]
         then
             banner
