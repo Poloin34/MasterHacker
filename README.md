@@ -33,6 +33,3 @@ https://paypal.me/poloin - poloin.gaetan@outlook.com
 
 **Freewallet ID**: poloin  
 **Only XMR**: 85ovUTcPRxCYZp1vLRNkiD99DJYddGq7hJFrrBnB9wweMaUUH4dwcsn3bTYcw62LBVJZqRD2J5x2Ahn2bNBuGbjkCBDznN9  
-**Only BTC**: 3JLM5tW2j8dH6jJp764LQmGFe7AzJKL7TR   
-**Only BAT**: 0x5070C2dc23DB65b4E0a5FC577d3f84726b5Cd6a9  
-**Only ETH**: 0xaFbc33424Bc47bE4896032315B6c8a48Fc7FBA56
