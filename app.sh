@@ -55,21 +55,21 @@ gov () {
             sleep .05
         done < victims.txt
 
-        echo "${reset}Finished to breach into $agencie databases ! "
+        echo "${reset}Finished to breach into $agencie databases! "
         printf "\n"
-        echo "Wait a few seconds for identity deletion (Now worry, its to protect you).."
+        echo "Wait a few seconds for identity deletion (No worry, its to protect you).."
         printf "\n"
         printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2;
-        printf "\tDone ! Here how to connect :"
+        printf "\tDone! Here how to connect:"
         printf "\n"
         sleep 5
-        echo "${red}We have some trouble getting in.. check internet connection and cpu usage..${reset}"
+        echo "${red}We have some trouble getting in... Check internet connection and CPU usage..${reset}"
         printf "\n"
         echo "Retrying."
         printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2;
         sleep 15
         printf "\n"
-        echo "${red}We have some trouble getting in.. check internet connection and cpu usage..${reset}"
+        echo "${red}We have some trouble getting in.. check Internet connection and CPU usage..${reset}"
         #xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
         exit
     }
@@ -83,7 +83,7 @@ gov () {
         printf "\n"
         printf " 7) Access White House security system (WARNING, CAN CAUSE A NUCLEAR WAR)"
         printf "\n\n"
-        read -p "Which one do you want to access ? " govfamouschoice
+        read -p "Which one do you want to access? " govfamouschoice
 
         if [ $govfamouschoice == 1 ]
         then
@@ -116,9 +116,9 @@ gov () {
             sleep .02
         done < victims.txt
 
-        echo "${reset}Finished to breach into $people ! "
+        echo "${reset}Finished to breach into $people! "
         printf "\n"
-        echo "Wait a few seconds for identity deletion (Now worry, its to protect you).."
+        echo "Wait a few seconds for identity deletion (No worry, its to protect you).."
         printf "\n"
         printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2;
         printf "\tDone ! Here how to connect :"
@@ -141,9 +141,9 @@ gov () {
         printf "\n"
         printf " 3) Get Amazon Prime for life\t4) Get ten 100% discount off at Amazon"
         printf "\n"
-        printf " 5) Get Netflix free, for ever ! (Available for now)"
+        printf " 5) Get Netflix free, forever! (Available for now)"
         printf "\n\n"
-        read -p "Which one do you want to have ? " govconglochoice
+        read -p "Which one do you want to have? " govconglochoice
 
         if [ $govconglochoice == 1 ]
         then
@@ -153,13 +153,13 @@ gov () {
             conglothings="1000 RANDOM LITTLE AMAZON THINGS"
         elif [ $govconglochoice == 3 ]
         then
-            conglothings="LIFE TIME AMAZON PRIME"
+            conglothings="LIFETIME AMAZON PRIME"
         elif [ $govconglochoice == 4 ]
         then
             conglothings="10x 100% DISCOUNT AMAZON COUPONS CODES"
         elif [ $govconglochoice == 5 ]
         then
-            conglothings="FREE NETFLIX LIFE TIME"
+            conglothings="FREE NETFLIX LIFETIME"
         fi
 
         echo "${green}$conglothings is fun"
@@ -177,10 +177,10 @@ gov () {
         done < victims.txt
         echo "${reset}Finished to breach in to get your $conglothings ! "
         printf "\n"
-        echo "Wait a few seconds for identity deletion (Now worry, its to protect you).."
+        echo "Wait a few seconds for identity deletion (No worry, its to protect you).."
         printf "\n"
         printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2;
-        printf "\tDone ! Here how to get them :"
+        printf "\tDone! Here how to get them:"
         printf "\n"
         sleep 5
         echo "${red}We have some trouble getting in.. check internet connection and cpu usage..${reset}"
@@ -195,15 +195,15 @@ gov () {
     }
 
     banner
-    printf "Here all the tools to hack governement !"
+    printf "Here are all the tools to hack government!"
     printf "\n\n"
     printf "1) Access to some databases"
     printf "\n"
-    printf "2) Access to differents famous gov computers and phones"
+    printf "2) Access to different famous gov computers and phones"
     printf "\n"
-    printf "3) Exploit some breache in conglomerate website/app to get free items and 100% discount"
+    printf "3) Exploit some breaches in conglomerate website/app to get free items and 100% discount"
     printf "\n\n"
-    read -p "Which one do you want to see ? " govchoice
+    read -p "Which one do you want to see? " govchoice
 
     if [ $govchoice == 1 ]
     then
@@ -220,13 +220,13 @@ gov () {
 social () {
     insta () {
         banner
-        printf "Here all the Instagram's hacking tools :"
+        printf "Here all the Instagram hacking tools:"
         printf "\n\n"
         printf " 1) Hack an account"
         printf "\n"
         printf  "2) Get certified"
         printf "\n"
-        printf " 3) Make someone loose him certified badge"
+        printf " 3) Make someone lose their certified badge"
         printf "\n"
         printf " 4) Get shopping certified"
         printf "\n"
@@ -244,11 +244,11 @@ social () {
             banner
             printf "Let's hack an account !"
             printf "\n"
-            read -p "First, write the account you want to hack : " instahack
+            read -p "First, write the account you want to hack: " instahack
 
             sleep 1
             banner
-            printf "We are going to hack the accont '$instahack'"
+            printf "We are going to hack the account '$instahack'"
             printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
             sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
             sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
@@ -260,7 +260,7 @@ social () {
             printf "\n\n\n"
             printf "${green}Succesfully hacked '$instahack' !${reset}"
             printf "\n"
-            printf "Password is coming.."
+            printf "Password is comming.."
             printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
             sleep 1; printf "."; sleep 1; printf "."; sleep 1; printf "."; sleep 2; printf "."; sleep 2; printf "."; sleep 5; printf "."
             printf "\n\n"
@@ -269,7 +269,7 @@ social () {
             printf "\n"
             printf "Retrying.."
             sleep 15
-            "${red}Doesn't worked... Retry with better internet !${reset}"
+            "${red}Didn't worked... Retry with better internet !${reset}"
             #xdg-open https://github.com/Poloin34/MasterHacker/tree/master/victims
             exit
 
@@ -278,7 +278,7 @@ social () {
             banner
             printf "Let's make your account certified !"
             printf "\n"
-            read -p "First, tell me the account you want to be certified : " instacertif
+            read -p "First, tell me the account you want to be certified: " instacertif
 
             sleep 1
             banner
@@ -290,7 +290,7 @@ social () {
             printf "\n"
             printf "Sending username to certification list."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "${green}Account username send !${reset}"
             printf "\n\n\n"
-            printf "Start using your internet connection and cpu to achieve task."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."
+            printf "Start using your internet connection and cpu to achieve the task."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."
             sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."; sleep 0.2; printf "."
             printf "\n"
             printf "${red}ERROR ! Your internet connection or CPU power is not enough !${reset}"
@@ -368,7 +368,7 @@ social () {
     }
 
     banner
-    printf "Here all the Socials Medias hacking possibilities :"
+    printf "Here all the Socials Medias hacking possibilities:"
     printf "\n\n"
     printf " 1) Instagram\t2) Facebook"
     printf "\n"
@@ -430,15 +430,15 @@ social () {
 
 home () {
     banner
-    printf "Welcome in this tool ! You want to hack your governements or just the Instagram of your ex ? This tool is for you !!"
-    printf "\tGET FREE NETFLIX FOR A LIMITED TIME ! SELECT 1, THEN 3 AND THEN 5 !!"
-    printf "\n\nHere all of the available options :"
+    printf "Welcome to this tool! Do you want to hack your government or just your ex's Instagram? This tool is for you !!"
+    printf "\tGET FREE NETFLIX FOR A LIMITED TIME! SELECT 1, THEN 3, AND THEN 5 !!"
+    printf "\n\nHere all of the available options:"
     printf "\n\n"
     printf "\t1) Governement hacking tools"
     printf "\t2) Social Medias hacking tools"
     printf "\n\n"
 
-    read -p "Choose your option : " homechoose
+    read -p "Choose your option: " homechoose
 
     if [ $homechoose == 1 ]
     then
